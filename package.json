@@ -1,11 +1,17 @@
 {
   "name": "sesinfo2019-vue-tictactoe",
-  "version": "0.1.0",
-  "private": true,
+  "description": "Exemplo simples de Jogo da Velha construído com Vue",
+  "author": "Erick Eduardo Petrucelli <erick.petrucelli@fatectq.edu.br>",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErickPetru/sesinfo2019-vue-tictactoe"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "npm run serve"
   },
   "dependencies": {
     "core-js": "^2.6.5",
