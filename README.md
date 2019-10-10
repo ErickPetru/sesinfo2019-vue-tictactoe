@@ -2,9 +2,9 @@
 
 # Jogo da Velha (com Vue)
 
-> Exemplo simples de Jogo da Velha construído com Vue, utilizado como material de apoio para palestra na SESINFO 2019.
+> Exemplo simples de Jogo da Velha construído com Vue, utilizado como material de apoio para palestra na SESINFO 2019 ([_slides_ aqui](https://1drv.ms/p/s!Ai8E6u6imv4pi9ERL9sdkpOCDav44w)).
 
-A estrutura deste projeto foi gerada com o [Vue CLI](https://cli.vuejs.org/).
+A estrutura deste projeto foi gerada com o [Vue CLI](https://cli.vuejs.org/). Se você nunca se meteu com a construção de projetos _front-end_ utilizando este tipo de ferramenta, fica a dica: instale o [Node](https://nodejs.org/) antes de começar.
 
 ## Instalando
 
