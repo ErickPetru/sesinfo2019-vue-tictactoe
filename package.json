@@ -8,11 +8,14 @@
     "url": "https://github.com/ErickPetru/sesinfo2019-vue-tictactoe"
   },
   "license": "MIT",
+  "homepage": "https://erickpetru.github.io/sesinfo2019-vue-tictactoe/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "npm run serve"
+    "start": "npm run serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -25,6 +28,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^2.1.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
